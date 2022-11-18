@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": null,
-    "database": "test123",
+    "database": "faw",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "logging": false
