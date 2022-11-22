@@ -83,6 +83,7 @@ let updateUserData = (data) => {
 
             })
             if (user) {
+                // user.username = data.username;
                 user.firstName = data.firstName;
                 user.lastName = data.lastName;
                 user.address = data.address;
@@ -100,6 +101,7 @@ let updateUserData = (data) => {
             console.log(e);
         }
     })
+    
 }
 
 let deleteUserById = (userId) => {

@@ -36,6 +36,7 @@ let displayGetCRUD = async (req, res) => {
     return res.render('displayCRUD.ejs', {
         dataTable: data
     })
+    
 }
 
 let getEditCRUD = async (req, res) => {
@@ -62,6 +63,7 @@ let putCRUD = async (req, res) => {
     return res.render('displayCRUD.ejs', {
         dataTable: allUsers
     })
+    
 }
 
 let deleteCRUD = async (req, res) => {
